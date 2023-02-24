@@ -71,18 +71,17 @@ public class Theatre {
     }
 
     private static void buy_ticket() {
-//        System.out.print("Enter your first name: ");
-//        String name = input.next();
-//        System.out.print("Enter your sur name: ");
-//        String sur = input.next();
-//        System.out.print("Enter your email: ");
-//        String email = input.next();
-//
-//        Person person = new Person(name, sur, email);
-//        //System.out.println(person);
+        // System.out.print("Enter your first name: ");
+        // String name = input.next();
+        // System.out.print("Enter your sur name: ");
+        // String sur = input.next();
+        // System.out.print("Enter your email: ");
+        // String email = input.next();
+        //
+        // Person person = new Person(name, sur, email);
+        // System.out.println(person);
 
         try {
-
             System.out.print("Enter row number (1 to 3): ");
             int row = input.nextInt();
 
