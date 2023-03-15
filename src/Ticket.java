@@ -3,19 +3,22 @@ public class Ticket{
     int seat;
     double price;
     Person person;
-    Ticket(int row, int seat, double price,Person person) {
-
+    Ticket(int row, int seat, double price, Person person) {
         this.row = row;
         this.seat = seat;
         this.price = price;
         this.person= person;
     }
+//    public String toString(){
+//        return row + " " + seat + " " + price +"$ " + person;
+//    }
+
     void print(){
-        System.out.println("Name = "+person.name);
-        System.out.println("last name = "+person.surname);
-        System.out.println("Email = "+person.email);
-        System.out.println("Row = "+row);
-        System.out.println("Seat = "+seat);
-        System.out.println("Price = "+price);
+        System.out.printf("Person Name: %s\n",(this.person.name));
+        System.out.printf("Person Surname: %s\n",(this.person.surname));
+        System.out.printf("Person Email: %s\n",(this.person.email));
+        System.out.printf("Row No: %d\n", (this.row));
+        System.out.printf("Seat No: %d\n", (this.seat));
+        System.out.printf("Ticket Price: £%.2f\n", (this.price));
     }
 }

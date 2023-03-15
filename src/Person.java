@@ -9,7 +9,19 @@ public class Person {
         this.email=email;
     }
 
-    public String toString(){
-        return name + "\n" + surname + "\n" + email;
-    }
+//    public String toString(){
+//        return name + " " + surname + " " + email + "\n";
+//    }
+
+//    public String getName() {
+//        return name;
+//    }
+//
+//    public String getSurname() {
+//        return surname;
+//    }
+//
+//    public String getEmail() {
+//        return email;
+//    }
 }
