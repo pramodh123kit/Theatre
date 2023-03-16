@@ -3,16 +3,12 @@ public class Ticket{
     int seat;
     double price;
     Person person;
-    Ticket(int row, int seat, double price, Person person) {
+    Ticket (int row, int seat, double price, Person person) {
         this.row = row;
         this.seat = seat;
         this.price = price;
-        this.person= person;
+        this.person = person;
     }
-//    public String toString(){
-//        return row + " " + seat + " " + price +"$ " + person;
-//    }
-
     void print(){
         System.out.printf("Person Name: %s\n",(this.person.name));
         System.out.printf("Person Surname: %s\n",(this.person.surname));
